@@ -1,2 +1,2 @@
-# iOS-Study-Demo
-iOS 学习点滴
+# iOS Study Demo
+记录 iOS 学习点滴
