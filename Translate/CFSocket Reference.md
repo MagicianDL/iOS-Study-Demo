@@ -12,7 +12,7 @@
 
 `CFSocket`可以通过`CFSocketCreate`和`CFSocketCreateWithSocketSignature`从头开始创建。`CFSocket`对象也可以通过调用`CFSocketCreateWithNative`包含现有的BSD socket来创建。最后，你可以通过调用`CFSocketCreateConnectedToSocketSignature`创建一个`CFSocket`并且连接到远程主机。
 
-对于监听消息，你需要通过`CFSocketCreateRunLoopSource`创建一个运行循环源（Runloop source）并且调用`CFRunLoopAddSource`将它添加到一个运行循环（Run loop）中。你可以选择socket活动的类型，例如连接尝试或者数据到达（data arrivals）,它将使源（source）启动和调用你的`CFSocket`的回调函数。对于发送数据，将数据存储字`CFData`中并且调用`CFSocketSendData`。
+对于监听消息，你需要通过`CFSocketCreateRunLoopSource`创建一个运行循环源（Runloop source）并且调用`CFRunLoopAddSource`将它添加到一个运行循环（Run loop）中。你可以选择socket活动的类型，例如连接尝试或者数据到达（data arrivals）,它将使源（source）启动和调用你的`CFSocket`的回调函数。对于发送数据，将数据存储于`CFData`中并且调用`CFSocketSendData`。
 
 与Mach和消息端口不同，socket提供网络上的通信。
 
@@ -61,7 +61,7 @@ iOS 2.0之后可用。
 ------------ | ------------- 
 `allocator` | `allocator`用于分配内存给新对象。传入`NULL`或者`kCFAllocatorDefault`来使用当前的默认的allocator。 
 `signature` | 一个`CFSocketSignature`识别`CFSocket`对象应该连接的协议和地址。
-`callBackTypes` | 一个按位或（bitwise-OR）组合类型的socket活动，用该造成`callout`的调用。查看`Callback Types`来了解可能的活动值。
+`callBackTypes` | 一个按位或（bitwise-OR）组合类型的socket活动，用于造成`callout`的调用。查看`Callback Types`来了解可能的活动类型。
 `callout` | 当一个通过`callBackTypes`指示的活动发生时调用的函数。
 `context` | 一个为`CFSocket`对象保持上下文信息的结构体。函数从结构体中复制出信息，所以上下文指向的内存不需要在超出函数调用之后保留。可以是`NULL`。
 `timeout` | 等待一个连接成功的超时时间。如果使用一个负值，这个函数不会等待连接，而是尝试让连接在后台发生。如果`callBackTypes`包含`kCFSocketConnectCallBack`，当后台连接成功或失败的时候你会收到一个回调。
@@ -72,7 +72,7 @@ iOS 2.0之后可用。
 
 ####可用性 
 
-iOS 2.0之后可用。
+iOS 2.0和2.0之后可用。
 
 ----
 
@@ -97,7 +97,7 @@ iOS 2.0之后可用。
 
 ####可用性 
 
-iOS 2.0之后可用。
+iOS 2.0和2.0之后可用。
 
 ----
 
@@ -168,7 +168,7 @@ iOS 2.0之后可用。
 
 ####可用性 
 
-iOS 2.0之后可用。
+iOS 2.0和2.0之后可用。
 
 ----
 
@@ -230,7 +230,7 @@ iOS 2.0或2.0之后可用。
 参数 | 描述
 --- | ---
 `s` | 被审核的`CFSocket`对象。
-`context` | 一个指向复制于`s`上下文信息的结构体。返回的信息通畅和你创建`CFSocket`对象时传入 `CFSocketCreate`, `CFSocketCreateConnectedToSocketSignature`, `CFSocketCreateWithNative`或`CFSocketCreateWithSocketSignature`的信息相同。然而，如果`CFSocketCreateWithNative`返回一个缓存的`CFSocket`对象而不是创建一个新的对象，`context`中填充的是原来的`CFSocket`对象的信息而不是你传入这个函数的信息。
+`context` | 一个指向复制于`s`上下文信息的结构体。返回的信息通常和你创建`CFSocket`对象时传入 `CFSocketCreate`, `CFSocketCreateConnectedToSocketSignature`, `CFSocketCreateWithNative`或`CFSocketCreateWithSocketSignature`的信息相同。然而，如果`CFSocketCreateWithNative`返回一个缓存的`CFSocket`对象而不是创建一个新的对象，`context`中填充的是原来的`CFSocket`对象的信息而不是你传入这个函数的信息。
 
 ####讨论
 
