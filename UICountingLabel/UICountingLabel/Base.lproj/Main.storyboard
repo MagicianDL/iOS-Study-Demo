@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETf-PM-XFb" customClass="UICountingLabel">
+                                <rect key="frame" x="152" y="93" width="297" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="7Nk-5h-C22"/>
+                                    <constraint firstAttribute="width" constant="297" id="Alf-Hj-m9B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzk-zc-U3b" customClass="UICountingLabel">
+                                <rect key="frame" x="152" y="222" width="297" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7m-fY-5HA" customClass="UICountingLabel">
+                                <rect key="frame" x="152" y="350" width="297" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGv-5U-Jby">
+                                <rect key="frame" x="212" y="484" width="177" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="944-3f-Mal"/>
+                                    <constraint firstAttribute="height" constant="46" id="BA5-pr-Gpk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNj-sU-eSr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xzk-zc-U3b" firstAttribute="leading" secondItem="ETf-PM-XFb" secondAttribute="leading" id="1Nd-gU-lqE"/>
+                            <constraint firstItem="Xzk-zc-U3b" firstAttribute="top" secondItem="ETf-PM-XFb" secondAttribute="bottom" constant="86" id="4cY-om-JFF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PGv-5U-Jby" secondAttribute="bottom" constant="70" id="5Jp-J3-glE"/>
+                            <constraint firstItem="PGv-5U-Jby" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6pp-nX-ben"/>
+                            <constraint firstItem="O7m-fY-5HA" firstAttribute="trailing" secondItem="ETf-PM-XFb" secondAttribute="trailing" id="7Ea-ax-Bgm"/>
+                            <constraint firstItem="Xzk-zc-U3b" firstAttribute="height" secondItem="ETf-PM-XFb" secondAttribute="height" id="F4p-uI-JlD"/>
+                            <constraint firstItem="Xzk-zc-U3b" firstAttribute="trailing" secondItem="ETf-PM-XFb" secondAttribute="trailing" id="TrA-SF-ghn"/>
+                            <constraint firstItem="ETf-PM-XFb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJq-SG-K25"/>
+                            <constraint firstItem="O7m-fY-5HA" firstAttribute="leading" secondItem="ETf-PM-XFb" secondAttribute="leading" id="g1v-46-QvV"/>
+                            <constraint firstItem="O7m-fY-5HA" firstAttribute="top" secondItem="Xzk-zc-U3b" secondAttribute="bottom" constant="85" id="qo6-BL-YGD"/>
+                            <constraint firstItem="O7m-fY-5HA" firstAttribute="height" secondItem="ETf-PM-XFb" secondAttribute="height" id="vdK-Yn-8IB"/>
+                            <constraint firstItem="ETf-PM-XFb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="wcg-1j-g7T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="ETf-PM-XFb" id="8sv-Oe-VmO"/>
+                        <outlet property="countLabel1" destination="Xzk-zc-U3b" id="jHQ-nT-ioe"/>
+                        <outlet property="countLabel2" destination="O7m-fY-5HA" id="dtB-8b-17b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="337"/>
+        </scene>
+    </scenes>
+</document>

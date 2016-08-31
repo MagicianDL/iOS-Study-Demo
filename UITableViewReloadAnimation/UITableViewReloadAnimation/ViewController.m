@@ -15,15 +15,23 @@
 @end
 
 @implementation ViewController
-
+{
+    NSArray *_heights;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    _heights = @[@44, @88, @132, @88, @44];
+    
+    
+    
 }
 
 - (IBAction)reload:(id)sender {
-//    [self.tableView reloadDataWithDirection:DLLoadAnimationDirectionTypeRight duration:0.1 offset:0.1];
-    [self.tableView reloadData];
+    [self.tableView reloadDataWithDirection:DLLoadAnimationDirectionTypeRight duration:0.1 offset:0.1];
+//    [self.tableView reloadData];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -33,7 +41,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 30;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -45,9 +53,18 @@
     return cell;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSInteger index = arc4random() % 5;
+    NSNumber *number = _heights[index];
+    
+    return (CGFloat)number.floatValue;
+}
+
+
 - (void)tableView:(UITableView *)tableView willDisplayCell:(nonnull UITableViewCell *)cell forRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
-    [cell displayWithDirection:DLLoadAnimationDirectionTypeRight duration:.65 delay:0 springDamping:.85 springVelocity:.8];
+//    [cell displayWithDirection:DLLoadAnimationDirectionTypeRight duration:.65 delay:0 springDamping:.85 springVelocity:.8];
 }
 
 - (void)didReceiveMemoryWarning {

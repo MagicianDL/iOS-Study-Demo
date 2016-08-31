@@ -14,16 +14,16 @@
                        duration:(NSTimeInterval)duration
                          offset:(NSTimeInterval)offset
 {
-//    [self reloadData];
+    [self reloadData];
     [self setContentOffset:self.contentOffset animated:NO];
-    [UIView animateWithDuration:0.2 animations:^{
+//    [UIView animateWithDuration:0.2 animations:^{
 //        self.hidden = YES;
-        [self reloadData];
-    } completion:^(BOOL finished) {
+//        [self reloadData];
+//    } completion:^(BOOL finished) {
 //        self.hidden = NO;
-        [self visibleRowsAnimationWithDirection:direction duration:duration offset:offset];
-    }];
-
+//        [self visibleRowsAnimationWithDirection:direction duration:duration offset:offset];
+//    }];
+    [self visibleRowsAnimationWithDirection:direction duration:duration offset:offset];
 }
 
 - (void)visibleRowsAnimationWithDirection:(DLLoadAnimationDirectionType)direction
