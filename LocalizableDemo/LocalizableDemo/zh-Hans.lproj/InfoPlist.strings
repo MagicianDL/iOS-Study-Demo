@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  LocalizableDemo
+
+  Created by Dalang on 16/8/31.
+  Copyright © 2016年 SYH. All rights reserved.
+*/
+"CFBundleDisplayName" = "本地化";

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  LocalizableDemo
+
+  Created by Dalang on 16/8/31.
+  Copyright © 2016年 SYH. All rights reserved.
+*/
+
+
+"Localizable"         = "本地化";
+"Toggle"              = "切换";
+"Hello World"         = "你好 世界";
+"coca_cola"           = "coca_cola_ch_hans";
