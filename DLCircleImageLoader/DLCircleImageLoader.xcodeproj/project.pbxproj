@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9595F5FE076F56EBCADDF8F5 /* libPods-DLCircleImageLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6852CBD087E00CC3C6EA118 /* libPods-DLCircleImageLoader.a */; };
+		F396DA341D7D45A700DDD531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F396DA331D7D45A700DDD531 /* main.m */; };
+		F396DA371D7D45A700DDD531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F396DA361D7D45A700DDD531 /* AppDelegate.m */; };
+		F396DA3A1D7D45A700DDD531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F396DA391D7D45A700DDD531 /* ViewController.m */; };
+		F396DA3D1D7D45A700DDD531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F396DA3B1D7D45A700DDD531 /* Main.storyboard */; };
+		F396DA3F1D7D45A700DDD531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F396DA3E1D7D45A700DDD531 /* Assets.xcassets */; };
+		F396DA421D7D45A700DDD531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F396DA401D7D45A700DDD531 /* LaunchScreen.storyboard */; };
+		F396DA4C1D7D46EE00DDD531 /* DLCircularLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F396DA4B1D7D46EE00DDD531 /* DLCircularLoaderView.m */; };
+		F396DA4F1D7D4CBA00DDD531 /* UIImageView+DLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F396DA4E1D7D4CBA00DDD531 /* UIImageView+DLLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19231AA5D3AFEF780EA9A863 /* Pods-DLCircleImageLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLCircleImageLoader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLCircleImageLoader/Pods-DLCircleImageLoader.release.xcconfig"; sourceTree = "<group>"; };
+		A25077E4E186C3FA84DFADD4 /* Pods-DLCircleImageLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLCircleImageLoader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLCircleImageLoader/Pods-DLCircleImageLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		F396DA2F1D7D45A700DDD531 /* DLCircleImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLCircleImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F396DA331D7D45A700DDD531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F396DA351D7D45A700DDD531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F396DA361D7D45A700DDD531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F396DA381D7D45A700DDD531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F396DA391D7D45A700DDD531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F396DA3C1D7D45A700DDD531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F396DA3E1D7D45A700DDD531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F396DA411D7D45A700DDD531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F396DA431D7D45A700DDD531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F396DA4A1D7D46EE00DDD531 /* DLCircularLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCircularLoaderView.h; sourceTree = "<group>"; };
+		F396DA4B1D7D46EE00DDD531 /* DLCircularLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCircularLoaderView.m; sourceTree = "<group>"; };
+		F396DA4D1D7D4CBA00DDD531 /* UIImageView+DLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DLLoader.h"; sourceTree = "<group>"; };
+		F396DA4E1D7D4CBA00DDD531 /* UIImageView+DLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DLLoader.m"; sourceTree = "<group>"; };
+		F6852CBD087E00CC3C6EA118 /* libPods-DLCircleImageLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DLCircleImageLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F396DA2C1D7D45A700DDD531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9595F5FE076F56EBCADDF8F5 /* libPods-DLCircleImageLoader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9F68B7E984E86053839945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25077E4E186C3FA84DFADD4 /* Pods-DLCircleImageLoader.debug.xcconfig */,
+				19231AA5D3AFEF780EA9A863 /* Pods-DLCircleImageLoader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6D91D467A61578AD14FD0CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6852CBD087E00CC3C6EA118 /* libPods-DLCircleImageLoader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F396DA261D7D45A700DDD531 = {
+			isa = PBXGroup;
+			children = (
+				F396DA311D7D45A700DDD531 /* DLCircleImageLoader */,
+				F396DA301D7D45A700DDD531 /* Products */,
+				6B9F68B7E984E86053839945 /* Pods */,
+				E6D91D467A61578AD14FD0CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F396DA301D7D45A700DDD531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F396DA2F1D7D45A700DDD531 /* DLCircleImageLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F396DA311D7D45A700DDD531 /* DLCircleImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F396DA491D7D45F000DDD531 /* CircleImageLoader */,
+				F396DA351D7D45A700DDD531 /* AppDelegate.h */,
+				F396DA361D7D45A700DDD531 /* AppDelegate.m */,
+				F396DA381D7D45A700DDD531 /* ViewController.h */,
+				F396DA391D7D45A700DDD531 /* ViewController.m */,
+				F396DA3B1D7D45A700DDD531 /* Main.storyboard */,
+				F396DA3E1D7D45A700DDD531 /* Assets.xcassets */,
+				F396DA401D7D45A700DDD531 /* LaunchScreen.storyboard */,
+				F396DA431D7D45A700DDD531 /* Info.plist */,
+				F396DA321D7D45A700DDD531 /* Supporting Files */,
+			);
+			path = DLCircleImageLoader;
+			sourceTree = "<group>";
+		};
+		F396DA321D7D45A700DDD531 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F396DA331D7D45A700DDD531 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F396DA491D7D45F000DDD531 /* CircleImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F396DA4A1D7D46EE00DDD531 /* DLCircularLoaderView.h */,
+				F396DA4B1D7D46EE00DDD531 /* DLCircularLoaderView.m */,
+				F396DA4D1D7D4CBA00DDD531 /* UIImageView+DLLoader.h */,
+				F396DA4E1D7D4CBA00DDD531 /* UIImageView+DLLoader.m */,
+			);
+			path = CircleImageLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F396DA2E1D7D45A700DDD531 /* DLCircleImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F396DA461D7D45A700DDD531 /* Build configuration list for PBXNativeTarget "DLCircleImageLoader" */;
+			buildPhases = (
+				9B3EFF76EDA8084C3310F008 /* [CP] Check Pods Manifest.lock */,
+				F396DA2B1D7D45A700DDD531 /* Sources */,
+				F396DA2C1D7D45A700DDD531 /* Frameworks */,
+				F396DA2D1D7D45A700DDD531 /* Resources */,
+				9C81FF33EEC531A4C8C030C7 /* [CP] Embed Pods Frameworks */,
+				E1EDFBF42F1436DE7B8C9EC7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLCircleImageLoader;
+			productName = DLCircleImageLoader;
+			productReference = F396DA2F1D7D45A700DDD531 /* DLCircleImageLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F396DA271D7D45A700DDD531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SYH;
+				TargetAttributes = {
+					F396DA2E1D7D45A700DDD531 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F396DA2A1D7D45A700DDD531 /* Build configuration list for PBXProject "DLCircleImageLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F396DA261D7D45A700DDD531;
+			productRefGroup = F396DA301D7D45A700DDD531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F396DA2E1D7D45A700DDD531 /* DLCircleImageLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F396DA2D1D7D45A700DDD531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396DA421D7D45A700DDD531 /* LaunchScreen.storyboard in Resources */,
+				F396DA3F1D7D45A700DDD531 /* Assets.xcassets in Resources */,
+				F396DA3D1D7D45A700DDD531 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B3EFF76EDA8084C3310F008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C81FF33EEC531A4C8C030C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLCircleImageLoader/Pods-DLCircleImageLoader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EDFBF42F1436DE7B8C9EC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLCircleImageLoader/Pods-DLCircleImageLoader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F396DA2B1D7D45A700DDD531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396DA4F1D7D4CBA00DDD531 /* UIImageView+DLLoader.m in Sources */,
+				F396DA4C1D7D46EE00DDD531 /* DLCircularLoaderView.m in Sources */,
+				F396DA3A1D7D45A700DDD531 /* ViewController.m in Sources */,
+				F396DA371D7D45A700DDD531 /* AppDelegate.m in Sources */,
+				F396DA341D7D45A700DDD531 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F396DA3B1D7D45A700DDD531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396DA3C1D7D45A700DDD531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F396DA401D7D45A700DDD531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396DA411D7D45A700DDD531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F396DA441D7D45A700DDD531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F396DA451D7D45A700DDD531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F396DA471D7D45A700DDD531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25077E4E186C3FA84DFADD4 /* Pods-DLCircleImageLoader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLCircleImageLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYH.DLCircleImageLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F396DA481D7D45A700DDD531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19231AA5D3AFEF780EA9A863 /* Pods-DLCircleImageLoader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLCircleImageLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SYH.DLCircleImageLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F396DA2A1D7D45A700DDD531 /* Build configuration list for PBXProject "DLCircleImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F396DA441D7D45A700DDD531 /* Debug */,
+				F396DA451D7D45A700DDD531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F396DA461D7D45A700DDD531 /* Build configuration list for PBXNativeTarget "DLCircleImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F396DA471D7D45A700DDD531 /* Debug */,
+				F396DA481D7D45A700DDD531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F396DA271D7D45A700DDD531 /* Project object */;
+}
