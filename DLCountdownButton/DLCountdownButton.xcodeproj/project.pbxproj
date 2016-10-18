@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F37864361DB5BFF40043B8C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F37864351DB5BFF40043B8C9 /* main.m */; };
+		F37864391DB5BFF40043B8C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F37864381DB5BFF40043B8C9 /* AppDelegate.m */; };
+		F378643C1DB5BFF40043B8C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F378643B1DB5BFF40043B8C9 /* ViewController.m */; };
+		F378643F1DB5BFF40043B8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F378643D1DB5BFF40043B8C9 /* Main.storyboard */; };
+		F37864411DB5BFF40043B8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37864401DB5BFF40043B8C9 /* Assets.xcassets */; };
+		F37864441DB5BFF40043B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37864421DB5BFF40043B8C9 /* LaunchScreen.storyboard */; };
+		F378644E1DB5C0470043B8C9 /* DLCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F378644D1DB5C0470043B8C9 /* DLCountdownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F37864311DB5BFF40043B8C9 /* DLCountdownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLCountdownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37864351DB5BFF40043B8C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F37864371DB5BFF40043B8C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F37864381DB5BFF40043B8C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F378643A1DB5BFF40043B8C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F378643B1DB5BFF40043B8C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F378643E1DB5BFF40043B8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37864401DB5BFF40043B8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37864431DB5BFF40043B8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F37864451DB5BFF40043B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F378644C1DB5C0470043B8C9 /* DLCountdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCountdownButton.h; sourceTree = "<group>"; };
+		F378644D1DB5C0470043B8C9 /* DLCountdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCountdownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F378642E1DB5BFF40043B8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37864281DB5BFF40043B8C9 = {
+			isa = PBXGroup;
+			children = (
+				F37864331DB5BFF40043B8C9 /* DLCountdownButton */,
+				F37864321DB5BFF40043B8C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37864321DB5BFF40043B8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37864311DB5BFF40043B8C9 /* DLCountdownButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37864331DB5BFF40043B8C9 /* DLCountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				F378644B1DB5C0120043B8C9 /* DLCountdownButton */,
+				F37864371DB5BFF40043B8C9 /* AppDelegate.h */,
+				F37864381DB5BFF40043B8C9 /* AppDelegate.m */,
+				F378643A1DB5BFF40043B8C9 /* ViewController.h */,
+				F378643B1DB5BFF40043B8C9 /* ViewController.m */,
+				F378643D1DB5BFF40043B8C9 /* Main.storyboard */,
+				F37864401DB5BFF40043B8C9 /* Assets.xcassets */,
+				F37864421DB5BFF40043B8C9 /* LaunchScreen.storyboard */,
+				F37864451DB5BFF40043B8C9 /* Info.plist */,
+				F37864341DB5BFF40043B8C9 /* Supporting Files */,
+			);
+			path = DLCountdownButton;
+			sourceTree = "<group>";
+		};
+		F37864341DB5BFF40043B8C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F37864351DB5BFF40043B8C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F378644B1DB5C0120043B8C9 /* DLCountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				F378644C1DB5C0470043B8C9 /* DLCountdownButton.h */,
+				F378644D1DB5C0470043B8C9 /* DLCountdownButton.m */,
+			);
+			path = DLCountdownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37864301DB5BFF40043B8C9 /* DLCountdownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37864481DB5BFF40043B8C9 /* Build configuration list for PBXNativeTarget "DLCountdownButton" */;
+			buildPhases = (
+				F378642D1DB5BFF40043B8C9 /* Sources */,
+				F378642E1DB5BFF40043B8C9 /* Frameworks */,
+				F378642F1DB5BFF40043B8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLCountdownButton;
+			productName = DLCountdownButton;
+			productReference = F37864311DB5BFF40043B8C9 /* DLCountdownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37864291DB5BFF40043B8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Dalang;
+				TargetAttributes = {
+					F37864301DB5BFF40043B8C9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7EBT3L7M8A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F378642C1DB5BFF40043B8C9 /* Build configuration list for PBXProject "DLCountdownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37864281DB5BFF40043B8C9;
+			productRefGroup = F37864321DB5BFF40043B8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37864301DB5BFF40043B8C9 /* DLCountdownButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F378642F1DB5BFF40043B8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37864441DB5BFF40043B8C9 /* LaunchScreen.storyboard in Resources */,
+				F37864411DB5BFF40043B8C9 /* Assets.xcassets in Resources */,
+				F378643F1DB5BFF40043B8C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F378642D1DB5BFF40043B8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F378643C1DB5BFF40043B8C9 /* ViewController.m in Sources */,
+				F37864391DB5BFF40043B8C9 /* AppDelegate.m in Sources */,
+				F37864361DB5BFF40043B8C9 /* main.m in Sources */,
+				F378644E1DB5C0470043B8C9 /* DLCountdownButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F378643D1DB5BFF40043B8C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F378643E1DB5BFF40043B8C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F37864421DB5BFF40043B8C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37864431DB5BFF40043B8C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F37864461DB5BFF40043B8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37864471DB5BFF40043B8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37864491DB5BFF40043B8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EBT3L7M8A;
+				INFOPLIST_FILE = DLCountdownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syh.DLCountdownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F378644A1DB5BFF40043B8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EBT3L7M8A;
+				INFOPLIST_FILE = DLCountdownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syh.DLCountdownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F378642C1DB5BFF40043B8C9 /* Build configuration list for PBXProject "DLCountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37864461DB5BFF40043B8C9 /* Debug */,
+				F37864471DB5BFF40043B8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37864481DB5BFF40043B8C9 /* Build configuration list for PBXNativeTarget "DLCountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37864491DB5BFF40043B8C9 /* Debug */,
+				F378644A1DB5BFF40043B8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F37864291DB5BFF40043B8C9 /* Project object */;
+}
